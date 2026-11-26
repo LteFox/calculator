@@ -103,11 +103,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const rest = cash - total;
 
     if (rest < 0) {
-      restEl.style.color = "red";
+      restEl.style.color = " rgb(237, 17, 17)";
+      restEl.style.fontWeight = "bold";
     } else if (rest == 0) {
       restEl.style.color = "white";
     } else {
-      restEl.style.color = "green";
+      restEl.style.color = " rgb(22, 175, 22)";
+      restEl.style.fontWeight = "bold";
     }
 
     if (totalEl) totalEl.textContent = `${total}MDL`;
