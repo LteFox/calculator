@@ -1,0 +1,194 @@
+body {
+  max-width: 500px;
+  background: #080812;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+span {
+  display: block;
+  height: 20px;
+  width: 2px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.bar {
+  height: 1px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.produse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.produse .number {
+  width: 30%;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  margin-right: 20px;
+}
+
+.cantitatea {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.cantitatea .plus,
+.cantitatea .minus {
+  background-color: rgba(255, 255, 255, 0.086);
+  border: none;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+}
+
+.cantitatea .total-produs {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 4.5px;
+}
+.produse .pret-pozitie {
+  width: 40%;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 10px;
+}
+
+.number-total {
+  background-color: transparent;
+  color: rgb(221, 124, 54);
+  width: auto;
+  height: auto;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  border-top: white 2px dashed;
+  border-radius: 0;
+  padding-top: 5px;
+  margin-top: 10px;
+  /* text-shadow: wheat 1.5px 1px 2px; */
+}
+
+.pozitii {
+  display: flex;
+  gap: 10px;
+}
+
+.pozitii input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.add {
+  width: fit-content;
+  background-color: rgb(22, 175, 22);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.add p {
+  margin: 0;
+}
+
+.contetnt-title {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  font-size: 16px;
+  width: 100%;
+  text-wrap: nowrap;
+  text-align: end;
+  font-weight: bold;
+}
+
+#price {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#price input {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  color: white;
+}
+
+#price .achitare {
+  background-color: transparent;
+  width: 100%;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 20px;
+}
+
+.rest {
+  height: auto;
+  width: 50%;
+  background-color: transparent;
+  border-radius: 0;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  text-wrap: nowrap;
+}
+
+.sum {
+  margin-right: 30px;
+}
+
+.operatii {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.end {
+  width: 100%;
+  background-color: rgb(210, 161, 14);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
