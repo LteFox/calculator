@@ -105,6 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (rest < 0) {
       restEl.style.color = " rgb(237, 17, 17)";
       restEl.style.fontWeight = "bold";
+      restEl.style.fontSize = "20px"
     } else if (rest == 0) {
       restEl.style.color = "white";
     } else {
